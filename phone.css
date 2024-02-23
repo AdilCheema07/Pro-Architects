@@ -1,0 +1,233 @@
+/* Phone  */
+@media only screen and (max-width: 949px) {
+    .nav {
+        display: none;
+    }
+
+    .toogle-button {
+        width: 100%;
+        display: flex;
+        /* background-color: #FFFFFF; */
+        position: relative;
+        left: 90%;
+        top: 2rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .nav-content {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-content ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-content ul li {
+        text-align: center;
+    }
+
+    .nav-content ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-content.active {
+        display: flex;
+        text-align: flex-start;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    .nav-content {
+        padding: .6rem 0;
+        display: flex;
+        margin: 1.5rem 10rem 1rem 10rem
+    }
+
+    #home-section::before {
+        width: 100%;
+    }
+
+    .home {
+        margin: auto 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-left {
+        margin: 0;
+    }
+
+    .home-line2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar-section {
+        width: 100%;
+    }
+
+    #header-section {
+        width: 100%;
+    }
+
+    #logo {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 5rem);
+        grid-row-gap: 3rem;
+        /* width: 100%; */
+        margin: 0;
+        text-align: left;
+
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    #box-2,
+    #box-3 {
+        margin: 0;
+    }
+
+    #box-2::before {
+        width: 100vw;
+        height: 60%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #box-3::before {
+        width: 100vw;
+        height: 60%;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 90vw;
+        height: 30rem;
+    }
+
+    .exclusive-service-content {
+        display: flex;
+        flex-direction: column;
+        text-align: flex-start;
+    }
+
+    .exclusive-left {
+        width: 100%;
+        text-align: left;
+    }
+
+    .exclusive-right {
+        width: 100%;
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .exclusive-center {
+        text-align: left;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome,
+    #service-box-6::before,
+    #service-box-5::before,
+    #service-box-4::before,
+    #service-box-3::before,
+    #service-box-2::before,
+    #service-box-1::before {
+        width: 100vw;
+        margin-top: 5rem;
+    }
+
+    .project-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projects-section,
+    .exclusive-service,
+    #services-section,
+    #start-now-section,
+    #numbers-section,
+    #welcome-section,
+    #boxes-section,
+    #arkitectural-awards-section,
+    .footer,
+    .footer-left,
+    .footer-right {
+        width: 100%;
+    }
+
+    #project-box-1,
+    #project-box-2,
+    #project-box-3 {
+        margin-top: 7rem;
+    }
+
+    #project-box-1::before,
+    #project-box-2::before,
+    #project-box-3::before {
+        width: 100%;
+    }
+
+    #project-box-3 {
+        height: 25vh;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .num {
+        padding: 2rem 0;
+    }
+
+    .start-now::before {
+        width: 100%;
+    }
+
+    .awards-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .awards-left {
+        width: 70%;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
